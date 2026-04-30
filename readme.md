@@ -18,7 +18,9 @@ node desafio2.js
 node desafio3.js
 node desafio4.js
 node desafio5.js
- Desafio 1 - Aplicação de Multas
+
+
+ ------- Desafio 1 - Aplicação de Multas
 
  Arquivo: desafio1.js
 
@@ -38,7 +40,7 @@ Uso de map + spread para criar cópia
 Uso de === para comparação correta
 Aplicação da multa apenas quando necessário
 
- Desafio 2 - Relatório de Pedidos
+ ------- Desafio 2 - Relatório de Pedidos
 
  Arquivo: desafio2.js
 
@@ -53,7 +55,7 @@ Região = SP ou RJ
 Valor > 2000
 NÃO possuir serviço
 
- Desafio 3 - Atualização de Clientes
+  ------- Desafio 3 - Atualização de Clientes
 
  Como resolvi
 
@@ -61,7 +63,7 @@ Para evitar reprocessamento em caso de falha, utilizei um checkpoint no banco de
 
 A ideia é salvar o último cliente processado com sucesso e continuar dali quando o script for reiniciado.
 
-🗄️ Tabela de controle
+ Tabela de controle
 -- Tabela responsável por armazenar o progresso da execução do script:
 
 CREATE TABLE job_checkpoint (
@@ -112,7 +114,7 @@ Evita inconsistência de dados
 Permite retomada do processo
 Evita duplicidade
 
- Desafio 4 - Clonagem de Pedido
+  ------- Desafio 4 - Clonagem de Pedido
 
  Arquivo: desafio4.js
 
@@ -139,7 +141,7 @@ filamento
 
 Assim cada objeto passa a ter sua própria referência.
 
- Desafio 5 - Processamento Assíncrono
+  ------- Desafio 5 - Processamento Assíncrono
 
  Arquivo: desafio5.js
 
@@ -190,4 +192,14 @@ Clareza
 Correção das regras de negócio
 Boas práticas
 Facilidade de manutenção
+
+##  Autor
+
+**Nome:** Henrique Guedes Silvestre
+**Email:** henriquegsilvestre@gmail.com
+**LinkedIn:** https://www.linkedin.com/in/henrique-guedes-silv/
+
+---
+
+Projeto desenvolvido como parte de teste técnico para avaliação de lógica, boas práticas e organização de código em JavaScript.
 ```
